@@ -32,6 +32,9 @@ function buildCharts(sample) {
     // Filter the samples for the object with the desired sample number
     let filteredData = samples.filter((row) => row.id == sample)[0];
 
+    // Log sample data for debugging
+    console.log("Sample Data:", filteredData);
+
     // Get the otu_ids, otu_labels, and sample_values
     let otu_ids = filteredData.otu_ids;
     let otu_labels = filteredData.otu_labels;
