@@ -5,6 +5,8 @@ This is an interactive dashboard to explore the [Belly Button Biodiversity datas
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
+The dasboard has been deployed to GitHub Pages. View the interactive version: [Belly Button Dashboard](https://ritunandi.github.io/belly-button-challenge/)
+
 ## Dashboard Features
 
 ### Drop Down Menu
@@ -32,3 +34,4 @@ The dataset reveals that a small handful of microbial species (also called opera
 * The colors of the bubbles are based `on otu_ids`, and the hovertext are the `otu_labels`
   
 ![Bubble Chart](<Screenprints/Bubble Chart.png>)
+
